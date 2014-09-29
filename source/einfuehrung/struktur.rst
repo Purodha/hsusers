@@ -15,7 +15,7 @@ Die technische Struktur bei Hostsharing aus Anwendersicht:
 :ein Host:
 	- enhält Null oder mehr Hives
 :ein Hive:
-	- *liegt auf* genau einem Host
+	- *liegt auf genau einem Host*
 	- enthält Null oder mehr Pakete
 :ein Paket:
 	- *liegt auf* genau einem Hive
