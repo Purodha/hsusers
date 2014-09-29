@@ -62,9 +62,9 @@ Seitenstruktur
 Die Hauptüberschrift, die auch im Inhaltsverzeichnis erscheint, sollte so
 geschrieben werden::
 
-        =======================
-        Installation von hsdocs
-        =======================
+        ========================
+        Installation von hsusers
+        ========================
 
 danach folgen Angaben zu den Autoren, Datums- und Zeitangaben::
 
