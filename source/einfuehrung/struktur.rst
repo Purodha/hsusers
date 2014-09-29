@@ -8,17 +8,17 @@ Struktur
 :Authors: - Purodha Blissenbach
 :Date: |date|, |time|
 
-Die technische Struktur von Hostsharing aus Anwendersicht:
+Die technische Struktur bei Hostsharing aus Anwendersicht:
 
-:hostsharing:
-	- `betreibt mehrere Hosts`
+:Hostsharing:
+	- betreibt mehrere Hosts
 :ein Host:
 	- enhält Null oder mehr Hives
 :ein Hive:
-	- `liegt auf genau einem Host`
+	- *liegt auf* genau einem Host
 	- enthält Null oder mehr Pakete
 :ein Paket:
-	- liegt auf genau einem Hive
+	- *liegt auf* genau einem Hive
 	- hat genau einen Paket-Admin
 	- hat genau eine Paket-Domain
         - hat Null oder mehr weitere Unix-Nutzer (neben dem Paket-Admin)
@@ -28,12 +28,19 @@ Die technische Struktur von Hostsharing aus Anwendersicht:
         - hat Null oder mehr Datenbanken
         - hat mindestens einen SSL-Schlüssel und eine IPV4-Adresse
 :ein Unix-Nutzer:
-	- gehört zu genau einem Paket
+	- *gehört zu* genau einem Paket
 	- hat genau eine Mailbox
 	- kann ein Paket-Admin sein
 	- kann ein Domain-Admin sein
 	- kann einen Shell-Zugang haben
 :eine Domain:
-	- liegt in genau einem Paket
+	- *liegt in* genau einem Paket
+	- *gehört* genau einem Domain-Admin (möglicherweise dem Paket-Admin)
 	- hat eine oder mehrere E-Mail-Adressen
 	- hat Null oder mehr Subdomains
+:eine Datenbank:
+	- *gehört zu* genau einem Paket
+	- erlaubt Zugriffsrechte für Null oder mehr Datenbank-Nutzer
+:ein Datenbank-Nutzer:
+	- *gehört zu* genau einem Paket
+	- hat Zugriffrechte auf Null oder mehr Datenbanken
