@@ -77,11 +77,11 @@ Glossar
    SSI
     Server Side Includes sind in Dokumente eingebettete Skript-Befehle, die auf einem Webserver ausgeführt werden, bevor das Dokument an den Client ausgeliefert wird. 
 
-   xyz00
+   ``xyz00`` 
     Synonym für ein Web-Paket.      
 
-   xyz00_
+   ``xyz00_`` 
     Synonym: Präfix für einen Datenbanknamen oder einen Datenbanknutzer.
 
-   xyz
+   `` xyz``
     Synonym für einen Mitgliedsnamen.
