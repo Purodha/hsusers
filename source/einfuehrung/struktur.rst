@@ -23,7 +23,7 @@ Die technische Struktur bei Hostsharing aus Anwendersicht:
 	- hat genau eine Paket-Domain
         - hat Null oder mehr weitere Unix-Nutzer (neben dem Paket-Admin)
         - hat Null oder mehr E-Mail-Aliases
-        - hat Null oder mehr Domain
+        - hat Null oder mehr Domains
         - hat Null oder mehr Datenbank-Nutzer
         - hat Null oder mehr Datenbanken
         - hat mindestens einen SSL-Schlüssel und eine IPV4-Adresse
